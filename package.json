@@ -1,0 +1,27 @@
+{
+  "name": "preinstall-guardian",
+  "version": "1.0.0",
+  "description": "Scan npm packages for malicious preinstall/postinstall scripts before they execute",
+  "main": "index.js",
+  "bin": {
+    "preinstall-guardian": "./cli.js",
+    "pig": "./cli.js"
+  },
+  "keywords": [
+    "security",
+    "npm",
+    "supply-chain",
+    "preinstall",
+    "postinstall",
+    "malware",
+    "scanner"
+  ],
+  "author": "natedev",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
