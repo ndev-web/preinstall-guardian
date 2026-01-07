@@ -16,7 +16,7 @@
     "malware",
     "scanner"
   ],
-  "author": "natedev",
+  "author": "ndev-web",
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
